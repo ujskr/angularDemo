@@ -1,0 +1,18 @@
+server: 
+  port: 8082
+  contextPath: /myapp
+ 
+logging:
+  level:
+    org:
+      springframework: ERROR
+    
+spring: 
+  mvc: 
+    view: 
+      prefix: 
+      suffix: .html
+    
+mysql:
+  schema: dev
+ 
