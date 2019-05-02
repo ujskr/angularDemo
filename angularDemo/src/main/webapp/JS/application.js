@@ -7,6 +7,10 @@ app.config(function($routeProvider) {
     })
     .when("/signUp", {
         templateUrl : "Partials/SignUp.html",
-        controller : "JS/signUpController.js"
+        controller : "signUpCtrl"
+    })
+    .when("/quizDashBoard", {
+        templateUrl : "Partials/QuizDashboard.html",
+        controller : "quizDashBoardCtrl"
     });
 });
